@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #49A5D8;
+    color: #FF6860;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #49A5D8;
+    background-color: #FF6860;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #49A5D8;
+    background: #FF6860;
 }
 
 header .container {
@@ -157,11 +157,58 @@ header .intro-text .skills {
     outline: 0;
 }
 /*
-  add custom
+  add custom start
 */
-.navbar a:hover {
-    color: #49A5D8;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #FF6860;
 }
+.navbar-default {
+  background-color: #FF6860;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #ff807a;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ff807a;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ff807a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #FF6860;
+  color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #FF6860;
+}
+/*
+  add custom end
+*/
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
@@ -187,7 +234,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #49A5D8;
+    background: #FF6860;
 }
 
 @media(max-width:767px) {
@@ -271,7 +318,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #49A5D8;
+    color: #FF6860;
     background: #fff;
 }
 
@@ -324,7 +371,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #49A5D8;
+    color: #FF6860;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -350,7 +397,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #ff6860;
 }
 
 .btn-social {
